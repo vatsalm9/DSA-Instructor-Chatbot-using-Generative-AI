@@ -5,7 +5,7 @@ from google.genai import types
 
 
 def get_client() -> genai.Client:
-    api_key = os.getenv("GOOGLE_API_KEY") or "AIzaSyDMOQ-W_7yc-haZL0W4doW5HJCmzsXMKSU"
+    api_key = os.getenv("GOOGLE_API_KEY") or ""
     return genai.Client(api_key=api_key)
 
 
@@ -75,5 +75,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 
 
