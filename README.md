@@ -32,8 +32,3 @@ and Streamlit to build a domain-specific learning assistant.
 
 ## 📂 Project Structure
 
-dsa-instructor-chatbot/
-├── streamlit_app.py
-├── requirements.txt
-├── README.md
-└── .gitignore
